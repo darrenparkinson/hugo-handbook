@@ -25,7 +25,7 @@ title = "Company Handbook"
 [params]
 BookSection="*"
 BookRepo = 'https://github.com/darrenparkinson/hugo-handbook'
-BookEditPath = 'edit/master/hugo-handbook/content'
+BookEditPath = 'edit/master/content'
 
 [menu]
 # [[menu.before]]
