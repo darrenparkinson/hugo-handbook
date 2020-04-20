@@ -1,0 +1,36 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Company Handbook"
+
+[module]
+ [[module.imports]]
+   path = "github.com/alex-shpak/hugo-book"
+
+[[module.imports]]
+    path = "github.com/darrenparkinson/hugo-handbook-values"
+    disabled = false
+
+    [[module.imports.mounts]]
+    source = "."
+    target = "content/values"
+
+[[module.imports]]
+    path = "github.com/darrenparkinson/hugo-handbook-culture"
+    disabled = false
+
+    [[module.imports.mounts]]
+    source = "."
+    target = "content/culture"
+
+[params]
+BookSection="*"
+BookRepo = 'https://github.com/darrenparkinson/hugo-handbook'
+BookEditPath = 'edit/master/hugo-handbook/content'
+
+[menu]
+# [[menu.before]]
+# name = "Before"
+# url = "before"
+# [[menu.after]]
+# name="After"
+# url="after"

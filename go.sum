@@ -1,0 +1,4 @@
+github.com/alex-shpak/hugo-book v0.0.0-20200416154017-b88d5f6b12fa/go.mod h1:DvU1VD1ikK0ufuSgldRCwm4kVaEF0cQGdHUp16XjSVI=
+github.com/darrenparkinson/hugo-handbook-culture v0.0.0-20200420114959-ad87ddea4796 h1:UVGxnyvIeN0qB/3E9qIOl0x25fTCu5E+BVVV1PPY0l0=
+github.com/darrenparkinson/hugo-handbook-culture v0.0.0-20200420114959-ad87ddea4796/go.mod h1:q9IbHCQ80snRhi5LAneZ7iuipChsaBgHh+Pb0iB0pLM=
+github.com/darrenparkinson/hugo-handbook-values v0.0.0-20200420103213-4bb0693bd72a/go.mod h1:JWZ5U2+1RsVVa57ImQgKaydc1Rt3FOTZdVpTEdcs22E=
